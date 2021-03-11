@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults",
+      "not IE 11",
+      "not IE_Mob 11"
+    ]
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.13.6",
+    "@redwoodjs/auth": "^0.26.3-canary.21",
+    "@redwoodjs/forms": "^0.26.3-canary.21",
+    "@redwoodjs/router": "^0.26.3-canary.21",
+    "@redwoodjs/web": "^0.26.3-canary.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
